@@ -1,0 +1,32 @@
+.header {
+    background: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-mid {
+    flex: 1;
+
+}
+
+.nav-mid ul, .nav-right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+
+}
